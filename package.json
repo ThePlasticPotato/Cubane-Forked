@@ -1,6 +1,6 @@
 {
 	"name": "cubane",
-	"version": "1.0.19",
+	"version": "1.0.20",
 	"description": "A Three.js-based Minecraft block and entity renderer with resource pack support",
 	"type": "module",
 	"main": "dist/cubane.umd.js",
@@ -49,13 +49,13 @@
 		"jszip": "^3.10.1"
 	},
 	"peerDependencies": {
-		"three": "^0.176.0"
+		"three": "^0.184.0"
 	},
 	"devDependencies": {
-		"@types/three": "0.176.0",
+		"@types/three": "^0.184.0",
 		"typescript": "~5.7.2",
 		"vite": "^6.3.1",
-		"three": "^0.176.0"
+		"three": "^0.184.0"
 	},
 	"engines": {
 		"node": ">=14.0.0"

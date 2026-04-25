@@ -664,9 +664,10 @@ export class AssetLoader {
 			};
 		}
 
-		canvas.width = texture.image.width;
-		canvas.height = texture.image.height;
-		ctx.drawImage(texture.image, 0, 0);
+		const image = texture.image as HTMLImageElement;
+		canvas.width = image.width;
+		canvas.height = image.height;
+		ctx.drawImage(image, 0, 0);
 
 		try {
 			const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
